@@ -18,6 +18,7 @@ namespace RabbitMQWEBApplication.Controllers
         private readonly IConfiguration _config;
         private readonly IConnectionsManager _connectionsManager;
         private readonly IOptions<RabbitMQOptions> _rabbitMQOptions;
+
         private string Exchanges { get; set; }
 
         private string routingKey { get; set; }
